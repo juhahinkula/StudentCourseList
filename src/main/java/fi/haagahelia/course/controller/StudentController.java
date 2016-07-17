@@ -77,7 +77,6 @@ public class StudentController {
 			return "redirect:/students";
 		}
 
-		model.addAttribute("developers", repository.findAll());
 		return "redirect:/students";
 	}    
     
